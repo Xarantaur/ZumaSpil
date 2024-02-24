@@ -1,0 +1,42 @@
+.zuma-container {
+  white-space: nowrap; /* Prevent wrapping of items */
+  overflow-x: hidden; /* Add horizontal scroll if content overflows */
+  margin-bottom: 100px;
+}
+
+.node {
+  border: 1px solid black;
+  padding: 10px;
+  margin: 5px;
+  display: inline-block;
+  border-radius: 50%; /* Make the node circular */
+  width: 50px; /* Adjust the width of the circular node */
+  height: 50px; /* Adjust the height of the circular node */
+  text-align: center; /* Center the text horizontally */
+  line-height: 50px; /*     Center the text vertically */
+  margin-right: 10px;
+}
+
+.node[data-color="red"] {
+  background-color: red;
+}
+.node[data-color="blue"] {
+  background-color: blue;
+}
+.node[data-color="green"] {
+  background-color: rgb(0, 255, 0);
+}
+.node[data-color="yellow"] {
+  background-color: yellow;
+}
+
+#ZumaFrog {
+  width: 100px; /* Adjust width as needed */
+  height: 120px; /* Adjust height as needed */
+  background-color: green; /* Green color for the frog */
+  border-radius: 50%; /* Make it circular */
+  position: absolute; /* Position it absolutely */
+  top: 50%; /* Position it vertically in the middle */
+  left: 50%; /* Position it horizontally in the middle */
+  transform: translate(-50%, -50%); /* Center it precisely */
+}
