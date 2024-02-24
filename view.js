@@ -19,4 +19,6 @@ export function updateView(linkedList) {
   }
 }
 
+
+
 export default updateView;

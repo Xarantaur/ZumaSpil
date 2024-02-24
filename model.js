@@ -64,10 +64,6 @@ class LinkedList {
     }
   }
 
-   randomColor() {
-    const colors = ["red", "blue","green","yellow"]
-    return colors[Math.floor(Math.random()*colors.length)]
-  }
   // Functions:
   add(payload) {
     const newNode = {
@@ -497,6 +493,11 @@ class LinkedList {
 
     console.log(currentNode);
   }
+}
+
+export function randomColor() {
+  const colors = ["red", "blue","green","yellow"]
+  return colors[Math.floor(Math.random()*colors.length)]
 }
 
 // start med definationerne , tegn Alting, udskriv hele tiden hele listen, lav en ting ad gangen.

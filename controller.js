@@ -4,7 +4,7 @@ import * as view from "./view.js";
 function initializeGame() {
   const linkedList = new model.default();
   setInterval(() => {
-    linkedList.addFirst(linkedList.randomColor());
+    linkedList.addFirst(model.randomColor());
     console.log("tilføjet ny node");
     view.updateView(linkedList);
   }, 3000);
